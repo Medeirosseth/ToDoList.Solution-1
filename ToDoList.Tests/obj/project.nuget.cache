@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e7bzfZ584My0BhHlqT3arsPWGVnKbcErHkvkOGJNSMy7uKo/wrNaI5hy1IjI5ru6exh7gIfbOGjQvtdRphk8WA==",
+  "dgSpecHash": "nS7fJ9otB931HTi3DK4O5bO41OV7VkJZxZLffqR+5+YoO0o1SwgeZpxGi4bB0ZjFTUVcXLIrK8zJlvhgCFcCDw==",
   "success": true,
   "projectFilePath": "/Users/seth/Desktop/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "/Users/seth/.nuget/packages/microsoft.win32.registry/4.0.0/microsoft.win32.registry.4.0.0.nupkg.sha512",
     "/Users/seth/.nuget/packages/mstest.testadapter/1.3.2/mstest.testadapter.1.3.2.nupkg.sha512",
     "/Users/seth/.nuget/packages/mstest.testframework/1.3.2/mstest.testframework.1.3.2.nupkg.sha512",
+    "/Users/seth/.nuget/packages/mysqlconnector/0.69.0/mysqlconnector.0.69.0.nupkg.sha512",
     "/Users/seth/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/seth/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/Users/seth/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

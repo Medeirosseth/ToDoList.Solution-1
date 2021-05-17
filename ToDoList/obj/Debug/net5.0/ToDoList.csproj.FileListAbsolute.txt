@@ -38,3 +38,4 @@
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList/obj/Debug/net5.0/Razor/Views/Home/FavoritePhotos.cshtml.g.cs
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList/obj/Debug/net5.0/Razor/Views/Shared/Footer.cshtml.g.cs
+/Users/seth/Desktop/ToDoList.Solution-1/ToDoList/bin/Debug/net5.0/MySqlConnector.dll

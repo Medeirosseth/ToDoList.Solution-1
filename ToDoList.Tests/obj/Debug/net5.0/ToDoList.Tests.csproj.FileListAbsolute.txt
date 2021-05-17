@@ -200,3 +200,4 @@
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList.Tests/obj/Debug/net5.0/ref/ToDoList.Tests.dll
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList.Tests/obj/Debug/net5.0/ToDoList.Tests.pdb
 /Users/seth/Desktop/ToDoList.Solution-1/ToDoList.Tests/obj/Debug/net5.0/ToDoList.Tests.genruntimeconfig.cache
+/Users/seth/Desktop/ToDoList.Solution-1/ToDoList.Tests/bin/Debug/net5.0/MySqlConnector.dll

@@ -12,90 +12,92 @@ namespace ToDoList.Tests
     {
       Category.ClearAll();
     }
-       [TestMethod]
-    public void CategoryConstructor_CreatesInstanceOfCategory_Category()
-    {
-      Category newCategory = new Category("test category");
-      Assert.AreEqual(typeof(Category), newCategory.GetType());
-    }
 
-      [TestMethod]
-      public void GetName_ReturnsName_String()
-    {
-     //Arrange
-     string name = "Test Category";
-     Category newCategory = new Category(name);
+    
+    //    [TestMethod]
+    // public void CategoryConstructor_CreatesInstanceOfCategory_Category()
+    // {
+    //   Category newCategory = new Category("test category");
+    //   Assert.AreEqual(typeof(Category), newCategory.GetType());
+    // }
 
-     //Act
-     string result = newCategory.Name;
+    //   [TestMethod]
+    //   public void GetName_ReturnsName_String()
+    // {
+    //  //Arrange
+    //  string name = "Test Category";
+    //  Category newCategory = new Category(name);
 
-      //Assert
-     Assert.AreEqual(name, result);
-    }
+    //  //Act
+    //  string result = newCategory.Name;
 
-    [TestMethod]
-    public void GetID_ReturnsCategoryId()
-    {
-      //Arramge
-      string name = "Test Category";
-      Category newCategory = new Category(name);
+    //   //Assert
+    //  Assert.AreEqual(name, result);
+    // }
 
-      //Act
-      int result = newCategory.Id;
+    // [TestMethod]
+    // public void GetID_ReturnsCategoryId()
+    // {
+    //   //Arramge
+    //   string name = "Test Category";
+    //   Category newCategory = new Category(name);
 
-      //Assert
-      Assert.AreEqual(1, result);
-    }
+    //   //Act
+    //   int result = newCategory.Id;
 
-      [TestMethod]
-    public void GetAll_ReturnsAllCategoryObjects_CategoryList()
-    {
-     //Arrange
-      string name01 = "Work";
-      string name02 = "School";
-      Category newCategory1 = new Category(name01);
-      Category newCategory2 = new Category(name02);
-      List<Category> newList = new List<Category> { newCategory1, newCategory2 };
+    //   //Assert
+    //   Assert.AreEqual(1, result);
+    // }
 
-      //Act
-      List<Category> result = Category.GetAll();
+    //   [TestMethod]
+    // public void GetAll_ReturnsAllCategoryObjects_CategoryList()
+    // {
+    //  //Arrange
+    //   string name01 = "Work";
+    //   string name02 = "School";
+    //   Category newCategory1 = new Category(name01);
+    //   Category newCategory2 = new Category(name02);
+    //   List<Category> newList = new List<Category> { newCategory1, newCategory2 };
 
-      //Assert
-      CollectionAssert.AreEqual(newList, result);
-    }
+    //   //Act
+    //   List<Category> result = Category.GetAll();
 
-    [TestMethod]
-    public void Find_ReturnCorrectCategory_Category()
-    {
-      //Arrange
-      string name01 = "Work";
-      string name02 = "School";
-      Category newCategory1 = new Category(name01);
-      Category newCategory2 = new Category(name02);
+    //   //Assert
+    //   CollectionAssert.AreEqual(newList, result);
+    // }
 
-      //Act
-      Category result = Category.Find(2);
+    // [TestMethod]
+    // public void Find_ReturnCorrectCategory_Category()
+    // {
+    //   //Arrange
+    //   string name01 = "Work";
+    //   string name02 = "School";
+    //   Category newCategory1 = new Category(name01);
+    //   Category newCategory2 = new Category(name02);
 
-      //Assert
-      Assert.AreEqual(newCategory2, result);
-    }
+    //   //Act
+    //   Category result = Category.Find(2);
 
-    [TestMethod]
-    public void AddItem_AssociatesItemWithCategory_ItemList()
-    {
-      //Arrange
-      string description = "walk the dog.";
-      Item newItem = new Item(description);
-      List<Item> newList = new List<Item> { newItem };
-      string name = "Work";
-      Category newCategory = new Category(name);
-      newCategory.AddItem(newItem);
+    //   //Assert
+    //   Assert.AreEqual(newCategory2, result);
+    // }
 
-      //Act
-      List<Item> result = newCategory.Items;
+    // [TestMethod]
+    // public void AddItem_AssociatesItemWithCategory_ItemList()
+    // {
+    //   //Arrange
+    //   string description = "walk the dog.";
+    //   Item newItem = new Item(description);
+    //   List<Item> newList = new List<Item> { newItem };
+    //   string name = "Work";
+    //   Category newCategory = new Category(name);
+    //   newCategory.AddItem(newItem);
 
-      //Assert
-      CollectionAssert.AreEqual(newList, result);
-    }
+    //   //Act
+    //   List<Item> result = newCategory.Items;
+
+    //   //Assert
+    //   CollectionAssert.AreEqual(newList, result);
+    // }
   }
 }
